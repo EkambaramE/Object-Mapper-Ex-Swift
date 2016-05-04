@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F611EA358B0BFC51C67ED1F /* Pods_Object_Mapper_Ex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D25E41B2354BC936CBBE0E /* Pods_Object_Mapper_Ex.framework */; };
 		9BBCD3BC1CAD262100963B7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBCD3BB1CAD262100963B7B /* AppDelegate.swift */; };
 		9BBCD3BE1CAD262100963B7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBCD3BD1CAD262100963B7B /* ViewController.swift */; };
 		9BBCD3C11CAD262100963B7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BBCD3BF1CAD262100963B7B /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		9BBCD3C61CAD262100963B7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BBCD3C41CAD262100963B7B /* LaunchScreen.storyboard */; };
 		9BBCD3D11CAD262100963B7B /* Object_Mapper_ExTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBCD3D01CAD262100963B7B /* Object_Mapper_ExTests.swift */; };
 		9BBCD3DC1CAD262100963B7B /* Object_Mapper_ExUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBCD3DB1CAD262100963B7B /* Object_Mapper_ExUITests.swift */; };
+		9BBCD3EA1CAD289600963B7B /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBCD3E91CAD289600963B7B /* Mappable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6CA8081EE37409E1442E19EA /* Pods-Object Mapper Ex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Object Mapper Ex.release.xcconfig"; path = "Pods/Target Support Files/Pods-Object Mapper Ex/Pods-Object Mapper Ex.release.xcconfig"; sourceTree = "<group>"; };
 		9BBCD3B81CAD262100963B7B /* Object Mapper Ex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Object Mapper Ex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BBCD3BB1CAD262100963B7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BBCD3BD1CAD262100963B7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,10 @@
 		9BBCD3D71CAD262100963B7B /* Object Mapper ExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Object Mapper ExUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BBCD3DB1CAD262100963B7B /* Object_Mapper_ExUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object_Mapper_ExUITests.swift; sourceTree = "<group>"; };
 		9BBCD3DD1CAD262100963B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BBCD3E91CAD289600963B7B /* Mappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mappable.swift; sourceTree = "<group>"; };
+		9BBCD3EB1CAD29CB00963B7B /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Object_Mapper_Ex-fcmkqxmsbkavabgtgpvixqepujlk/Build/Products/Debug-iphonesimulator/ObjectMapper.framework"; sourceTree = "<group>"; };
+		A0D25E41B2354BC936CBBE0E /* Pods_Object_Mapper_Ex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Object_Mapper_Ex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F3AC10351D4B6C444DF007 /* Pods-Object Mapper Ex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Object Mapper Ex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Object Mapper Ex/Pods-Object Mapper Ex.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F611EA358B0BFC51C67ED1F /* Pods_Object_Mapper_Ex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		97592569B90529E262877D66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2F3AC10351D4B6C444DF007 /* Pods-Object Mapper Ex.debug.xcconfig */,
+				6CA8081EE37409E1442E19EA /* Pods-Object Mapper Ex.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9BBCD3AF1CAD262100963B7B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +98,8 @@
 				9BBCD3CF1CAD262100963B7B /* Object Mapper ExTests */,
 				9BBCD3DA1CAD262100963B7B /* Object Mapper ExUITests */,
 				9BBCD3B91CAD262100963B7B /* Products */,
+				97592569B90529E262877D66 /* Pods */,
+				ED46F6261BBD3919C68C0311 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +118,7 @@
 			children = (
 				9BBCD3BB1CAD262100963B7B /* AppDelegate.swift */,
 				9BBCD3BD1CAD262100963B7B /* ViewController.swift */,
+				9BBCD3E91CAD289600963B7B /* Mappable.swift */,
 				9BBCD3BF1CAD262100963B7B /* Main.storyboard */,
 				9BBCD3C21CAD262100963B7B /* Assets.xcassets */,
 				9BBCD3C41CAD262100963B7B /* LaunchScreen.storyboard */,
@@ -125,6 +145,15 @@
 			path = "Object Mapper ExUITests";
 			sourceTree = "<group>";
 		};
+		ED46F6261BBD3919C68C0311 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BBCD3EB1CAD29CB00963B7B /* ObjectMapper.framework */,
+				A0D25E41B2354BC936CBBE0E /* Pods_Object_Mapper_Ex.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BBCD3E01CAD262100963B7B /* Build configuration list for PBXNativeTarget "Object Mapper Ex" */;
 			buildPhases = (
+				41D71BA50052B2D6D99CA976 /* Check Pods Manifest.lock */,
 				9BBCD3B41CAD262100963B7B /* Sources */,
 				9BBCD3B51CAD262100963B7B /* Frameworks */,
 				9BBCD3B61CAD262100963B7B /* Resources */,
+				2CB441F1FB1083A3BB236B28 /* Embed Pods Frameworks */,
+				C12BED509ECE5B12B56EE992 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,12 +283,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2CB441F1FB1083A3BB236B28 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Object Mapper Ex/Pods-Object Mapper Ex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41D71BA50052B2D6D99CA976 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C12BED509ECE5B12B56EE992 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Object Mapper Ex/Pods-Object Mapper Ex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9BBCD3B41CAD262100963B7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9BBCD3BE1CAD262100963B7B /* ViewController.swift in Sources */,
+				9BBCD3EA1CAD289600963B7B /* Mappable.swift in Sources */,
 				9BBCD3BC1CAD262100963B7B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +480,7 @@
 		};
 		9BBCD3E11CAD262100963B7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2F3AC10351D4B6C444DF007 /* Pods-Object Mapper Ex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Object Mapper Ex/Info.plist";
@@ -410,6 +492,7 @@
 		};
 		9BBCD3E21CAD262100963B7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CA8081EE37409E1442E19EA /* Pods-Object Mapper Ex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Object Mapper Ex/Info.plist";
@@ -484,6 +567,7 @@
 				9BBCD3E21CAD262100963B7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BBCD3E31CAD262100963B7B /* Build configuration list for PBXNativeTarget "Object Mapper ExTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +576,7 @@
 				9BBCD3E51CAD262100963B7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BBCD3E61CAD262100963B7B /* Build configuration list for PBXNativeTarget "Object Mapper ExUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +585,7 @@
 				9BBCD3E81CAD262100963B7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
